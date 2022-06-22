@@ -1,0 +1,27 @@
+type Query {
+    testQuery:  ResultQuery
+    login(nombre: String): ResultToken
+    me: dataTest
+}
+
+
+type Mutation{
+    testMutation(test: TestInput): ResultMutation
+
+}
+
+type Subscription {
+    newVote: String
+}
+
+type ResultMutation {
+    status: Boolean
+}
+
+
+
+type ResultToken {
+    status: Boolean!
+    message: String!
+    token: String
+}

@@ -1,0 +1,4 @@
+input TestInput {
+    _id: String
+    nombre: String
+}

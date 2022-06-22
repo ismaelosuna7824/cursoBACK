@@ -1,0 +1,11 @@
+type ResultQuery {
+    status: Boolean
+    data: [dataTest]
+    message: String
+}
+
+
+type dataTest {
+    _id: String
+    nombre: String
+}
